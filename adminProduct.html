@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant App</title>
+    <link rel="stylesheet" href="../home/home.css">
+    <link rel="stylesheet" href="../adminProduct/adminProduct.css">
+
+</head>
+<body>
+    <!-- Nav Bar -->
+    <header>
+        <div class="container">
+            <a href="" class="logo">Admin</a>
+            <nav>
+                <ul>
+                    
+                    <li><a href="" class="active">Products</a></li>
+                    <li><a href="../adminOrders/adminOrder.html">Orders</a></li>
+                
+                   
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!--Admin-->
+    <div class="adminContainer">
+        <!--Left Container-->
+        <div class="containerLeft">
+            <table id="tableProducts">
+                <tr>
+                   <th>Image</th>
+                   <th>Name</th>
+                   <th>Price</th>
+                   <th>Stock</th>
+                   <th>Actions</th>
+                </tr>
+                
+                <tbody>
+                    <tr>
+                    <td><img src="../../images/food1.jpg" alt="" class="productImage"></td>
+                    <td>Fried Rice</td>
+                    <td>XAF1,000</td>
+                    <td>5</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="../../images/food2.jpg" alt="" class="productImage"></td>
+                    <td>Beans</td>
+                    <td>XAF1,500</td>
+                    <td>4</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="../../images/food3.png" alt="" class="productImage"></td>
+                    <td>Achu</td>
+                    <td>XAF1,200</td>
+                    <td>3</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="../../images/food4.jpg" alt="" class="productImage"></td>
+                    <td>Ndole</td>
+                    <td>XAF1,300</td>
+                    <td>6</td>
+                    <td></td>
+                </tr>
+                </tbody>
+            </table>
+
+        </div>
+         <!--Right Container-->
+        <div class="containerRight">
+            <div class="formContainer">
+                <form action="">
+                    <div class="formGroup">
+                        <label for="image">Image</label>
+                        <input type="text" class="formControl">
+                        </div>
+                    <div class="formGroup">
+                        <label for="name">Name</label>
+                        <input type="text" class="formControl">
+                       
+                        </div>
+                   
+                        <div class="formGroup">
+                            <label for="">Price</label>
+                            <input type="text" class="formControl">
+                            </div>
+                       
+                            <div class="formGroup">
+                                <label for="number">Stock</label>
+                                <input type="number" class="formControl">
+                                </div>
+                            </form>
+                            <button class="savebtn">Save</button>
+                           
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
